@@ -79,6 +79,8 @@ The example application is a social blogging site (i.e. a Medium.com clone) call
 
 [![Brought to you by Thinkster](https://raw.githubusercontent.com/gothinkster/realworld/master/media/end.png)](https://thinkster.io)
 
+export AWS_CLI_PROFILE=#aws profile to use for ecr 
+export AWS_ACCOUNT=#account number for ecr
 
 # Build the container
 make build
