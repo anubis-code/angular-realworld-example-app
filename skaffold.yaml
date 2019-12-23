@@ -1,0 +1,8 @@
+apiVersion: skaffold/v1beta2
+kind: Config
+build:
+  artifacts:
+  - image: psmith282/angular-container
+    context: .
+    docker: {}
+  local: {}
